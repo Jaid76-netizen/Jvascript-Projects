@@ -1,0 +1,41 @@
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: gray;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#guess{
+    text-align: center;
+    font-size: 300%;
+}
+
+#guessfield{
+    align-items: center;
+    height: 1rem;
+    width: 10rem;
+    margin-left: 3rem;
+    border: 2px solid brown;
+    border-radius: 3%;
+    margin-bottom: 3px;
+}
+
+#subt{ 
+    width: 10rem;
+    height: 3rem;
+    margin-left: 3rem;
+    color: aliceblue;
+    background-color: black;
+    font-weight: 600;
+    border-radius: 3%;
+}
